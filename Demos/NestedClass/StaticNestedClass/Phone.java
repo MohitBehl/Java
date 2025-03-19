@@ -5,6 +5,9 @@ public class Phone {
         void charging(){
             System.out.println("Battery is Charging");
         }
+        static void getInfo(){
+            System.out.println("Getting Information");
+        }
     }
 
     class MicroProcessor{
@@ -22,5 +25,7 @@ class PhoneClient{
         Phone p1 = new Phone();
         Phone.MicroProcessor m1  = p1.new MicroProcessor();
         m1.display();
+
+        Phone.Battery.getInfo();
     }
 }
