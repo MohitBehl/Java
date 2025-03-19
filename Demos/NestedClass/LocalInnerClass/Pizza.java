@@ -4,7 +4,7 @@ public class Pizza {
     void preparePizza(){
         class Kitchen{
             void provideHeat(){
-                System.out.println("Heating the over");
+                System.out.println("Heating the oven");
             }
         }
 
@@ -19,3 +19,5 @@ class PizzaClient{
         p1.preparePizza();
     }
 }
+
+// creating object -> p1.preparePizza() -> object of kitchen -> k1 -> k1.provide HEat
