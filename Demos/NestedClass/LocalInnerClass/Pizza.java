@@ -2,9 +2,10 @@ package Demos.NestedClass.LocalInnerClass;
 
 public class Pizza {
     void preparePizza(){
+        String name = "Mac nd Cheese";
         class Kitchen{
             void provideHeat(){
-                System.out.println("Heating the oven");
+                System.out.println("Heating the oven for "+name+" pizza");
             }
         }
 
@@ -20,4 +21,4 @@ class PizzaClient{
     }
 }
 
-// creating object -> p1.preparePizza() -> object of kitchen -> k1 -> k1.provide HEat
+// creating object -> p1 -> p1.preparePizza() -> object of kitchen -> k1 -> k1.provide HEat

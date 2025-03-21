@@ -36,8 +36,6 @@ public class Car {
             System.out.println(songName+" is playing in music system");
         }
     }
-
-
 }
 
 class CarClient{
